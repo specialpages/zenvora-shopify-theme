@@ -2,15 +2,23 @@
 
 Premium, responsive Shopify storefront theme for ZENVORA — “Discover More. Live Better.”
 
-## Theme package
+## Theme archive
 
-Download `ZENVORA_Shopify_Theme.zip` from this repository, then upload it in Shopify Admin → Online Store → Themes → Add theme → Upload zip file.
+`ZENVORA_Shopify_Theme.zip.base64` contains the ZIP archive encoded as Base64 text. Decode it to `ZENVORA_Shopify_Theme.zip` before uploading to Shopify.
 
-## Included
+On a computer with a terminal, run:
+
+```bash
+base64 -d ZENVORA_Shopify_Theme.zip.base64 > ZENVORA_Shopify_Theme.zip
+```
+
+Then in Shopify Admin, go to **Online Store → Themes → Add theme → Upload zip file** and upload the decoded ZIP.
+
+## Included in the theme
 - Homepage hero, collection cards, featured products, and brand story
 - Responsive header/navigation and footer
 - Collection, product, cart, page, and search templates
 - Shopify-native cart and checkout form integration
 
 ## Before publishing
-Review the storefront in Shopify's theme preview, select the real product collections in the theme editor, add products through Shopify/Dropdash, and confirm your shipping, returns, privacy, and terms policies. The theme has not been installed or live-tested in a Shopify store yet.
+Preview the theme in Shopify, select your real collections in the theme editor, add products through Shopify/Dropdash, and confirm your shipping, returns, privacy, and terms policies. The theme has not yet been installed or live-tested in a Shopify store.
